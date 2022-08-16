@@ -104,7 +104,7 @@ else:
 
 
 # This will be useful for the encoding phase
-Raw_data = pd.read_csv(updated_prosper_data.csv")
+Raw_data = pd.read_csv('updated_prosper_data.csv')
 Selected_data = Raw_data [['Term', 'BorrowerAPR', 'TotalInquiries', 'LP_CustomerPrincipalPayments',
                            'AmountDelinquent', 'DelinquenciesLast7Years',
                            'LoanCurrentDaysDelinquent', 'PublicRecordsLast12Months',
